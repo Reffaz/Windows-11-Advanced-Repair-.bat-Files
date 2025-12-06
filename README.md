@@ -1,5 +1,5 @@
 # Windows-11-Advanced-Repair-.bat-Files
-This repository contains 3 levels of windows repair.
+This repository contains 3 levels of windows repair. Including other .batches. I dont know why I made it with REM, thought it looked cool xd
 REM ============================================================
 REM Windows 11 Repair Scripts – Level One, Two, Three
 REM ============================================================
