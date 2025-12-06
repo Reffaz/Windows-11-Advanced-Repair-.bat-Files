@@ -40,7 +40,7 @@ REM   - Automatic restart to apply changes
 REM   - Optional logging for DISM/SFC
 REM 
 REM ============================================================
-REM Additional Features:
+REM Additional:
 REM   - Clean Temp Folders: Deletes contents of %TEMP%, %TMP%
 REM   - Clear Thumbnail Cache: Deletes Windows thumbnail cache to fix broken thumbnails
 REM   - Fix DWMError: Resets Desktop Window Manager settings or processes
@@ -48,7 +48,7 @@ REM   - Network Fixes: Resets Winsock and TCP/IP, flushes DNS cache
 REM   - Disk Maintenance: Cleans temp files and schedules CHKDSK for system integrity
 REM 
 REM ============================================================
-REM Prerequisites & Recommendations:
+REM  Recommendations:
 REM   - Run all scripts as Administrator
 REM   - Close all applications before running, especially for SFC, DISM, CHKDSK
 REM   - Create a System Restore point before Level 2 or 3 repairs
@@ -72,3 +72,14 @@ REM   - Run CHKDSK on additional drives if required
 REM   - Start services immediately after setting them to auto:
 REM       net start <service>
 REM ============================================================
+REM ============================================================
+REM Windows 11 Repair Scripts – Notes for All BATs
+REM ============================================================
+
+REM Temp Folder Cleaner:
+REM - Deletes contents of %TEMP% and %TMP% folders.
+REM - Frees disk space and removes leftover temporary files.
+REM - Safe; may require elevated privileges for some files.
+REM - No system files are affected.
+
+REM Thumb
